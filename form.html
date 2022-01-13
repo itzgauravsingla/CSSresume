@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KnowAboutYOu</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body  align="center">
+        <h1>Let's know about you</h1>
+        <form action="mailto:itzgauravsingla@gmail.com" method="post" enctype="text/plain">
+            <lable for="name">What is your name?</lable>
+            <input type="text" placeholder="Name" name="name">
+            <br/><br/>
+            <lable for="dob">What is your date of birth?</lable> 
+            <input type="date" name="dob">
+            <br/></br/>
+            <lable for="a-grp">What is your age group?</lable>
+            <select multiple name="a-grp" size="3" name="ag">
+                <option>0-10</option>
+                <option>10-20</option>
+                <option>20-30</option>
+                <option>30-40</option>
+                <option>40-50</option>
+            </select>
+            <br/><br/>
+        <lable for="place">Where are you from?</lable> 
+            <select name="place" placeholder="place" name="place">
+                <option>India</option>
+                <option>US</option>
+                <option>Canada</option>
+                <option>UAE</option>
+                <option>Other</option>
+            </select>
+            <br/><br/>
+            <label for="color">What is your fav color?</label>
+            <input type="color" name="color">
+            <br/><br/>
+            <lable for="marital">Are you married?</lable> 
+            <input type="checkbox" name="marital">
+            <br/><br/>
+            <lable>Where can i reach you?</lable>
+            <input type="email" placeholder="name@example.com" name="e-mail">
+            <br/><br/>
+            <label for="msg">Type in your message...</label>
+            <input type="text" aria-rowspan="5" aria-colspan="50" name="msg" placeholder="Write your message here...">
+            <br/><br/>
+            <input type="reset" name="reset">
+            <br/><br/>
+            <input type="submit" action="mailto:itzgauravsingla@gmail.com">
+            <br/><br/>
+            <a href="index.html"> <img src="image/back.jfif" width="20%">
+            <br/><br/>
+        </form>
+    </body>
+</html>

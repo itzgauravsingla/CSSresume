@@ -1,0 +1,83 @@
+/* STYLE BY ID  */
+#pp {
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 0;
+}
+
+#header {
+    background-color: #CDDEFF;
+}
+ 
+/*  STYLE BY CLASS    */ 
+.table {
+    text-align: center;
+    border: 0px; 
+    border-spacing: 0px; 
+    width: 100%;
+}
+
+.col3 {
+    width: 20%;
+    text-align: center;
+}
+
+.head {
+    background-color: #CDDEFF;
+    border-radius: 5px;
+    padding-left: 2px;
+    text-align: center;
+}
+
+/*  STYLE BY TAG */
+body {
+    margin: 0px;
+    background-color: #EEF2FF;
+}
+
+img {
+    border-radius: 10%;
+}
+
+h1 {
+    color: #FF5959;
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+}
+
+th {
+    background-color: #CDDEFF;
+}
+
+hr {
+    height: 0px;
+    border-style: dotted none none;
+    border-top-color: #FF5959;
+    border-width: 5px;
+    width: 20%;
+    
+}
+
+li {
+    padding: 5px;    
+}
+
+td {
+    padding-left: 5px;
+}
+
+.table tr:hover {
+    background-color: #676FA3;
+    text-align: center;
+    margin: 0;
+}
+
+li:hover {
+    padding: 5px;
+    background-color: #676FA3;
+}
+
+[href="form.html"] {
+   display: block;
+   text-align: center;
+}
